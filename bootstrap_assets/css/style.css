@@ -1,3 +1,32 @@
-.navbar-toggler-icon {
-    background-image: url('https://mdbootstrap.com/img/svg/hamburger5.svg?color=f3e5f5');
-    }
+#header {
+    background-color: #4aaaa5;
+    border-bottom: 3px solid #6c757d;
+}
+
+#logo {
+    color: white;
+    font-family: 'Fredericka the Great', 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 35px;
+    line-height: 28px;
+    padding: 10px;
+}
+
+
+#background {
+    background-image: url("../images/light-grey-terrazzo.png");
+}
+
+#main-content {
+    border: 3px solid #ebebeb;
+    background-color: white;
+    padding: 30px;
+}
+
+
+#title {
+    font-family: 'Fredericka the Great', 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #4aaaa5;
+    font-size: 30px;
+    border-bottom: 2px solid #ebebeb;
+    padding-bottom: 20px;
+}
