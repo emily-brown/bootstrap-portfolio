@@ -6,61 +6,80 @@
     <title>Portfolio</title>
     <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="bootstrap_assets/css/style.css">
 </head>
 
-<body>
+<body class="d-flex flex-column">
+    <!--Navbar-->
+<nav class="navbar sticky-top navbar-light light-blue lighten-4">
 
-    <header>
-
-       <h1>Emily Brown</h1> 
-
-         <ul>
-            <li><a href="contact.html">Contact</a></li>
-        
-            <li><a href="portfolio.html">Portfolio</a></li>
-        
-            <li><a href="index.html">About</a></li>
-        
-        </ul>
-
-    </header>
-
-    <section>
-
-        <h2>Portfolio</h2>
-
-        <div>
-            <!-- <h3>Hangman</h3> -->
-            <a href="#">Hangman</a>
-            <img src="assets/images/placeholder_image_1.jpg">
+        <!-- Navbar brand -->
+        <a class="navbar-brand" href="#">Logo</a>
+      
+        <!-- Collapse button -->
+        <button class="navbar-toggler toggler-example" type="button" data-toggle="collapse" data-target="#navbarSupportedContent1"
+          aria-controls="navbarSupportedContent1" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+      
+        <!-- Collapsible content -->
+        <div class="collapse navbar-collapse" id="navbarSupportedContent1">
+      
+          <!-- Links -->
+          <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+          </ul>
+          <!-- Links -->
+      
         </div>
-        <div>
-            <!-- <h3>RPG Games</h3> -->
-            <a href="#">RPG</a>
-            <img src="assets/images/placeholder_image_2.jpg">
-        </div>
-        <div>
-            <!-- <h3>Trivia Game</h3> -->
-            <a href="#">Trivia Games</a> 
-            <img src="assets/images/placeholder_image_3.jpg">
-        </div>
-        <div>
-            <!-- <h3>Rutger Info Widget</h3> -->
-            <a href="#">Rutger Info Widget</a>
-            <img src="assets/images/placeholder_image_4.jpg">
-        </div>
-        <div>
-            <!-- <h3>Rock Paper Scissors</h3> -->
-            <a href="#">Rock Paper Scissors</a>
-            <img src="assets/images/placeholder_image_5.jpg">
-        </div>
+        <!-- Collapsible content -->
+      
+</nav>
 
-    </section>
+    <div class="container-fluid">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">Portfolio</div>
+            </div>
+        <div class="row">
+            <div class="col-sm-4">
+                <img src="bootstrap_assets/images/placeholder_image_1.jpg" class="img-fluid" alt="PortfolioImg1">
+            </div>
+            <div class="col-sm-4">
+                <img src="bootstrap_assets/images/placeholder_image_2.jpg" class="img-fluid" alt="PortfolioImg2">
+            </div>
+            <div class="col-sm-4">
+                <img src="bootstrap_assets/images/placeholder_image_3.jpg" class="img-fluid" alt="PortfolioImg3">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-4">
+                <img src="bootstrap_assets/images/placeholder_image_4.jpg" class="img-fluid" alt="PortfolioImg4">
+            </div>
+            <div class="col-sm-4">
+                <img src="bootstrap_assets/images/placeholder_image_5.jpg" class="img-fluid" alt="PortfolioImg5">
+            </div>
+            <div class="col-sm-4"></div>
+        </div>
+        </div>
+    </div>
 
-    <footer>
-        <h4>Copyright &#9400;</h4>
+    <footer class="fixed-bottom py-4 bg-dark text-white-50">
+        <div class="container text-center">
+            <small>Copyright &#9400</small>
+        </div>
     </footer>
-    
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
 </body>
 
 </html>
