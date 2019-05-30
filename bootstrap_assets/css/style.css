@@ -1,14 +1,20 @@
 #header {
     background-color: #4aaaa5;
     border-bottom: 3px solid #6c757d;
+    width: 100%;
 }
 
 #logo {
     color: white;
     font-family: 'Fredericka the Great', 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-    font-size: 35px;
-    line-height: 28px;
-    padding: 10px;
+    font-size: 45px;
+    letter-spacing: 4px;
+}
+
+#page {
+   font-family: 'Fredericka the Great', 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+   font-size: 25px;
+   letter-spacing: 2px;
 }
 
 
@@ -19,14 +25,35 @@
 #main-content {
     border: 3px solid #ebebeb;
     background-color: white;
-    padding: 30px;
+    padding: 2%;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #6c757d;
+}
+
+#submit {
+    background-color: #4aaaa5;
+    border: none;
 }
 
 
 #title {
     font-family: 'Fredericka the Great', 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     color: #4aaaa5;
-    font-size: 30px;
+    font-size: 40px;
     border-bottom: 2px solid #ebebeb;
-    padding-bottom: 20px;
+    padding-bottom: 2%;
+    letter-spacing: 2px;
+}
+
+#bottom {
+    background-color: #6c757d;
+    border-top: 6px solid #4aaaa5;
+}
+
+#copyright {
+    color: white;
+    font-size: 10px;
 }
