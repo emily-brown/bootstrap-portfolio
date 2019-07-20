@@ -57,3 +57,12 @@ p {
     color: white;
     font-size: 10px;
 }
+
+.seeCode {
+    background-color: #4aaaa5;
+    border: none;
+}
+
+.seeCode:hover {
+    background-color: #6c757d;
+}
